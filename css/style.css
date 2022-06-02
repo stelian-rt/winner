@@ -1800,35 +1800,13 @@ body {
   justify-content: space-evenly
 }
 
-.filter-container__inner-card {
+.filter-container__inner-card img {
   -o-object-fit: cover;
   object-fit: cover;
   height: 100%;
   width: 100%
 }
 
-@supports (width:clamp(19.375rem, -1.9706284153rem + 34.1530054645vw, 27.1875rem)) {
-  .filter-container__inner-card {
-    width: clamp(19.375rem, -1.9706284153rem + 34.1530054645vw, 27.1875rem)
-  }
-}
-
-@supports not (width:clamp(19.375rem, -1.9706284153rem + 34.1530054645vw, 27.1875rem)) {
-  .filter-container__inner-card {
-    width: calc(19.375rem + 125 * (100vw - 62.5rem)/ 22.875)
-  }
-}
-
-@supports (height:clamp(21.875rem, 4.7984972678rem + 27.3224043716vw, 28.125rem)) {
-  .filter-container__inner-card {
-    height: clamp(21.875rem, 4.7984972678rem + 27.3224043716vw, 28.125rem)
-  }
-}
-
-@supports not (height:clamp(21.875rem, 4.7984972678rem + 27.3224043716vw, 28.125rem)) {
-  .filter-container__inner-card {
-    height: calc(21.875rem + 100 * (100vw - 62.5rem)/ 22.875)
-  }
 
 .filter-hover {
   margin-bottom: 20px;
