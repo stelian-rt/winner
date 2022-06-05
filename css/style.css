@@ -3870,7 +3870,7 @@ body {
 
   .menu__body {
     position: fixed;
-    right: 0;
+    right: -100%;
     top: 0;
     width: 100%;
     height: 100%;
@@ -3880,7 +3880,7 @@ body {
     -o-transition: right .3s ease 0s;
     transition: right .3s ease 0s;
     overflow: auto;
-    z-index: 4
+    z-index: 4;
   }
 
   .menu__list {
