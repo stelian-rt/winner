@@ -3865,7 +3865,7 @@ body {
       right: calc(-.625rem + 35 * (100vw - 20rem)/ 27.9375)
     }
   }
-  .burger-active {
+  .menu__body.burger-active {
   right: 0
 }
 
