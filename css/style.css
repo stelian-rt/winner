@@ -569,9 +569,7 @@ body {
   transform: scale(1.1)
 }
 
-.burger-active {
-  right: 0
-}
+
 
 @supports (width:clamp(15.625rem, 11.1507270694rem + 22.3713646532vw, 21.875rem)) {
   .search {
@@ -3867,6 +3865,9 @@ body {
       right: calc(-.625rem + 35 * (100vw - 20rem)/ 27.9375)
     }
   }
+  .burger-active {
+  right: 0
+}
 
   .menu__body {
     position: fixed;
